@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Python Integration</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styleindex.css') }}">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.plot.ly/plotly-latest.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <div class="logo-image">
+                <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
+            </div>
+            <a href="#">RTO Tracker</a>
+        </div>
+        <div class="user-info">
+            <span class="avatar">{{ initials }}</span>
+            <a>{{ username }}</a>
+            <a href="{{ url_for('logout') }}">Logout</a>
+        </div>
+    </div>
+
+    <div class="content-container">
+        <!-- Your dashboard content goes here -->
+        <h2 style="font-family: Apercu Pro; margin-bottom: 0%; margin-top: 10px;">Team's RTO Dashboard</h2>
+        <p style="font-family: Apercu Pro; color: blue; font-size: smaller; margin-top: 0;">As of ({{ date }})</p>
+        <!-- Metric cards container -->
+        <div class="metric-cards">
+            <!-- Four metric cards -->
+            <div class="metric-card", style="background-color: #8223D2;">
+                <h4 style="font-family: Apercu Pro; margin-bottom: 30px; margin-top: 0; font-weight: normal;">Total RTO days</h4>
+                <!-- Loading bar container -->
+                <div class="loading-bar-container">
+                    <!-- Display the current value on the left -->
+                    <div class="loading-value left">{{ tot_RTO_cur }}</div>
+                    <!-- Loading bar -->
+                    <div class="loading-bar" style="width: {{ ratio }}%;"></div>
+                    <!-- Display the target value on the right -->
+                    <div class="loading-value right">{{ target }}</div>
+                </div>
+            </div>
+            <div class="metric-card", style="background-color: #8223D2;">
+                <h4 style="font-family: Apercu Pro; margin-bottom: 30px; margin-top: 0; font-weight: normal;">Non-Compliant Members</h4>
+                <p style="font-family: Apercu Pro; font-size: larger; text-align: center; font-weight: bold;">{{non_compliant_members_current}} Member(s)</p>
+            </div>
+            <div class="metric-card",  style="background-color: #8223D2;">
+                <h4 style="font-family: Apercu Pro; margin-bottom: 30px; margin-top: 0; font-weight: normal;">Average RTO Days</h4>
+                <p style="font-family: Apercu Pro; font-size: larger; text-align: center; font-weight: bold;">{{mean_rto_days}} Days</p>
+                <!--<p style="text-align: center; font-size: smaller; margin-top: 0;">{{num_members_with_rto}} out of {{member_count}} members have RTO days</p>-->
+                <p style="text-align: center; font-size: smaller; margin-top: 0;"></p>
+            </div>
+
+            <div class="metric-card", style="background-color: #8223D2;">
+                <h4 style="font-family: Apercu Pro; margin-bottom: 30px; margin-top: 0; font-weight: normal;">Average RTO Man Hour</h4>
+                <p style="font-family: Apercu Pro; font-size: larger; text-align: center; font-weight: bold;">{{mean_man_hour}} MH</p>
+            </div>
+        </div>
+        <!-- Chart container -->
+        <div class="chart-container">
+        <!-- First chart (1x2) -->
+            <div class="chart" id="chart1">
+                <!-- <img src="data:image/png;base64,{{ chart_data }}" alt="Chart 1">-->
+                <p>{{fig_chart_1_html|safe}} </p>
+            </div>
+        
+        <!-- Second chart (1x2) -->
+            <div class="chart" id="chart2">
+                <!--<img src="data:image/png;base64,{{ chart_data }}" alt="Chart 3">-->
+                <p>{{fig_chart_2_html|safe}} </p>
+            </div>
+        </div>
+        <div class="table-container">
+            <!-- Include jQuery and DataTables.js -->
+            <!-- Add a title above the table -->
+            <h3 style="font-family: Apercu Pro; margin-top: 0;">Historical RTO Data</h3>
+            <table id="data" class="display">
+                {{df_actuals_html|safe}}
+            </table>
+            <!-- Initialize DataTables.js -->
+            <script>
+                $(document).ready(function () {
+                    $('#data_panda').DataTable({
+                        columns: [
+                            null,
+                            { searchable: false },
+                            { orderable: false, searchable: false },
+                            { orderable: false, searchable: false },
+                            { orderable: false, searchable: false },
+                            { orderable: false, searchable: false },
+                            { orderable: false, searchable: false },
+                            { orderable: false, searchable: false },
+                        ],
+                        // Use the 'createdRow' callback function to customize row creation
+                        createdRow: function (row, data, dataIndex) {
+                            // Assuming the 'Compliance' column is the 6th column (index 5)
+                            var complianceColumnValue = data[7];
+                            var complianceCell = $('td', row).eq(7); // Select the 'Compliance' cell
+                
+                            // Change the color based on the 'Compliance' value
+                            if (complianceColumnValue === 'Compliant') {
+                                complianceCell.css('color', 'green');
+                            } else {
+                                complianceCell.css('color', 'red');
+                            }
+                        }
+                    });
+                });
+            </script>
+        </div>    
+    </div>
+
+
+    <!-- Chat messages -->
+    
+    <div class="chat-container">
+        <div class="chat-header">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+            <h3><span>&#128172;</span> Chat with our <i class="fas fa-robot"></i> Analyst</h3>
+        </div>
+        <div class="chat-messages" id="chat-messages">            
+        </div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button id="send-button">Send</button>
+        </div>
+        <script>
+            // Function to send a user message and receive a chatbot response  
+            function sendMessage() {  
+                const userInput = document.getElementById('user-input');  
+                const chatMessages = document.getElementById('chat-messages');  
+            
+                // Get the user's message  
+                const userMessage = userInput.value;  
+            
+                // Clear the user input field  
+                userInput.value = '';  
+            
+                // Send the user's message to your Flask server  
+                fetch('/process_message', {  
+                    method: 'POST',  
+                    body: JSON.stringify({  
+                        'message': userMessage  
+                    }),  
+                    headers: {  
+                        'Content-Type': 'application/json'  
+                    }  
+                })  
+                .then(response => response.json())  
+                .then(data => {  
+                    const message = data.response;  
+                    const dtype = data.d_type;  
+                
+                    chatMessages.innerHTML += `<div class='user-message-cont'><div class="user-message" style=width:92%;>${userMessage}</div><div class="avatar" style=width:7%>{{ initials }}</div></div>`;  
+                
+                    if(dtype === 'df' || dtype === 'series') {   
+                        chatMessages.innerHTML += `
+                                <div class="chatbot-message-cont">
+                                    <div class="fas fa-robot" style="width: 7%;"></div>
+                                    <div class="chatbot-message" style="width: 92%;">
+                                        <div class="table-container">${message}</div>
+                                    </div>
+                                </div>`;
+                    } else if (dtype === 'plotly') {
+                        const figure = JSON.parse(message);
+                        const chartContainer = document.createElement('div');
+                        chartContainer.classList.add('chartchat-container');
+                        chartContainer.id = 'chart3';
+
+                        // Extract data and layout from the message (assuming 'message' is a valid Plotly figure)
+                        // const { data, layout } = message;
+
+                        // Render the Plotly figure in the chart container
+                        Plotly.newPlot(chartContainer, figure.data, figure.layout, { displayModeBar: true }); // Set displayModeBar to false to prevent the toolbar
+
+
+                        const chatbotMessageCont = document.createElement('div');
+                        chatbotMessageCont.classList.add('chatbot-message-cont');
+                        chatbotMessageCont.innerHTML = `
+                            <div class="fas fa-robot" style="width: 7%;"></div>
+                            <div class="chatbot-message" style="width: 92%;">
+                                ${chartContainer.outerHTML}
+                            </div>
+                        `;
+
+                        // Append the entire message container to the chatMessages element
+                        chatMessages.appendChild(chatbotMessageCont);
+                    } else {  
+                        chatMessages.innerHTML += `<div class="chatbot-message-cont"><div class="fas fa-robot" style=width:7%;></div><div class="chatbot-message" style=width:92%;>${message}</div></div>`;  
+                    }  
+                })  
+                .catch((error) => {  
+                    console.error('Error:', error);  
+                });  
+
+            }  
+
+        
+            // Attach the sendMessage function to the send button click event
+            document.getElementById('send-button').addEventListener('click', sendMessage);
+        
+            // Trigger sendMessage when the user presses Enter in the input field
+            document.getElementById('user-input').addEventListener('keydown', function (event) {
+                if (event.key === 'Enter') {
+                    sendMessage();
+                }
+            });
+            // Initialize opening message for AI  
+            document.getElementById('chat-messages').innerHTML += `<div class="chatbot-message-cont"><div class="fas fa-robot" style=width:7%;></div><div class="chatbot-message" style=width:92%;>Hi! I am Kiko. I am your friendly Data Analyst. How can I help you today?</div></div>`;
+        </script>
+    </div>
+
+</div>    
+</body>
+</html>

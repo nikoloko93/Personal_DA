@@ -1,0 +1,231 @@
+/* styles.css */
+/* Set sans-serif font for the entire page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    height: 100vh; /* Set body height to 100% of viewport height */
+    display: grid;
+    grid-template-columns: 70% 30%; /* Two columns, 70% and 30% width */
+    grid-gap: 10px; /* Gap between columns */
+    grid-template-rows: auto 1fr; /* Auto height for navbar, remaining for content */
+}
+
+/* Style for the navigation bar */
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 28px; /* Adjust the height as needed */
+    border-radius: 3px; /* Rounded edges */
+    grid-column: span 2; /* Span both columns */
+}
+
+/* Style for the logo */
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the logo image */
+.navbar .logo .logo-image img {
+    width: 110px; /* Set the desired width */
+    height: 50px; /* Set the desired height */
+}
+
+/* Style for the navigation bar links */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Style for the user info container */
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the avatar */
+.avatar {
+    background-color: teal;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+/* Style for the content container */
+.content-container {
+    background-color: #f0f0f0; /* Adjust the background color */
+    padding: 20px;
+    border-radius: 3px;
+    margin-top: 10px; /* Add margin to separate from the navbar */
+}
+
+/* Style for the metric cards container */
+.metric-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four equal-width columns */
+    grid-gap: 20px; /* Gap between metric cards */
+}
+
+/* Style for metric cards */
+.metric-card {
+    background-color: indigo;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 2.5px 2.5px 5px #797878;
+    /* Adjust height and width as needed */
+    /*height: 150px; /* Set the desired height */
+    /*width: 200px; /* Set the desired width */
+}
+/* Style for the loading value on the left (current value) */
+.loading-value.left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    color: black;
+    z-index: 1; /* Ensure it's displayed above the loading bar */
+}
+
+/* Style for the loading bar container */
+.loading-bar-container {
+    background-color: #f0f0f0;
+    height: 20px;
+    border-radius: 3px;
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative; /* Relative positioning for the container */
+}
+
+/* Style for the loading bar */
+.loading-bar {
+    width: 0;
+    height: 100%;
+    background-color: rgb(47, 196, 255);
+    transition: width 2s;
+}
+
+/* Style for the loading value on the right (target value) */
+.loading-value.right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    color: black;
+    z-index: 1; /* Ensure it's displayed above the loading bar */
+}
+/* Style for the chat container */
+.chat-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 3px;
+    margin-top: 10px;
+    height: 150vh;; /* Set the desired height */
+    overflow-y: auto; /* Enable vertical scrolling for long chats */
+    box-shadow: 2.5px 2.5px 5px #797878;
+}
+
+/* Style for chat messages */
+.user-message {
+    background-color: #686aef;
+    color:white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.chatbot-message {
+    background-color: #8223D2;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Style for the chat input field and send button */
+.chat-input {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#user-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+#send-button {
+    background-color:#8223D2;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Add this CSS to your stylesheet or in a <style> tag in your HTML */
+
+.chart-container {
+    display: flex; /* Use flexbox to place the charts side by side */
+    justify-content: space-between; /* Adjust spacing between the charts */
+}
+
+.chart {
+    width: 48%; /* Set the width of each chart (adjust as needed) */
+    border: 1px solid transparent; /* Optional: Add borders to separate the charts */
+    padding: 10px; /* Optional: Add padding for spacing */
+}
+
+
+/* Style for the content */
+.content {
+    padding: 20px;
+}
+.user-message-cont {
+    display: flex; /* Use flexbox to place the charts side by side */
+    justify-content: right; /* Adjust spacing between the charts */
+}
+
+.chatbot-message-cont {
+    display: flex; /* Use flexbox to place the charts side by side */
+    justify-content: left; /* Adjust spacing between the charts */
+}
+.proc_data {
+    width: 100%; /* Make the table use the full available width */
+    border-collapse: collapse; /* Optional: Collapse borders for a cleaner look */
+}
+.table-container {
+    overflow-x: auto; /* Enable horizontal scrolling if the table is wider than the container */
+    font-family: Apercu Pro;
+}
+/* Apply additional styling for table elements as needed */
+.proc_data th, .proc_data td {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.chartchat-container{
+    overflow-x: auto; /* Enable horizontal scrolling if the table is wider than the container */
+}

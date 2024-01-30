@@ -1,0 +1,164 @@
+employeenumber,name,supervisor,RTOdate,man_hour,email
+11,Capitan Tiago,Juan Luna,5/1/2023,5,charinakrissel.tingson@asurion.com
+11,Capitan Tiago,Juan Luna,5/2/2023,4,charinakrissel.tingson@asurion.com
+11,Capitan Tiago,Juan Luna,5/5/2023,5,charinakrissel.tingson@asurion.com
+11,Capitan Tiago,Juan Luna,5/10/2023,7,charinakrissel.tingson@asurion.com
+11,Capitan Tiago,Juan Luna,5/15/2023,7,charinakrissel.tingson@asurion.com
+11,Capitan Tiago,Juan Luna,5/22/2023,6,charinakrissel.tingson@asurion.com
+11,Capitan Tiago,Juan Luna,5/24/2023,4,charinakrissel.tingson@asurion.com
+11,Capitan Tiago,Juan Luna,5/25/2023,7,charinakrissel.tingson@asurion.com
+11,Capitan Tiago,Juan Luna,5/26/2023,6,charinakrissel.tingson@asurion.com
+11,Capitan Tiago,Juan Luna,5/29/2023,8,charinakrissel.tingson@asurion.com
+11,Capitan Tiago,Juan Luna,5/30/2023,7,charinakrissel.tingson@asurion.com
+11,Capitan Tiago,Juan Luna,5/31/2023,5,charinakrissel.tingson@asurion.com
+11,Capitan Tiago,Juan Luna,6/9/2023,5,charinakrissel.tingson@asurion.com
+11,Capitan Tiago,Juan Luna,6/14/2023,8,charinakrissel.tingson@asurion.com
+11,Capitan Tiago,Juan Luna,6/16/2023,6,charinakrissel.tingson@asurion.com
+11,Capitan Tiago,Juan Luna,6/19/2023,5,charinakrissel.tingson@asurion.com
+11,Capitan Tiago,Juan Luna,6/23/2023,7,charinakrissel.tingson@asurion.com
+11,Capitan Tiago,Juan Luna,6/30/2023,4,charinakrissel.tingson@asurion.com
+101,Crispin Basilio,Gregorio Del Pilar,5/1/2023,4,charinakrissel.tingson@asurion.com
+101,Crispin Basilio,Gregorio Del Pilar,5/2/2023,4,charinakrissel.tingson@asurion.com
+101,Crispin Basilio,Gregorio Del Pilar,5/4/2023,5,charinakrissel.tingson@asurion.com
+101,Crispin Basilio,Gregorio Del Pilar,5/8/2023,3,charinakrissel.tingson@asurion.com
+101,Crispin Basilio,Gregorio Del Pilar,5/12/2023,4,charinakrissel.tingson@asurion.com
+101,Crispin Basilio,Gregorio Del Pilar,5/18/2023,4,charinakrissel.tingson@asurion.com
+101,Crispin Basilio,Gregorio Del Pilar,5/25/2023,4,charinakrissel.tingson@asurion.com
+101,Crispin Basilio,Gregorio Del Pilar,5/31/2023,4,charinakrissel.tingson@asurion.com
+101,Crispin Basilio,Gregorio Del Pilar,6/1/2023,4,charinakrissel.tingson@asurion.com
+101,Crispin Basilio,Gregorio Del Pilar,6/6/2023,4,charinakrissel.tingson@asurion.com
+101,Crispin Basilio,Gregorio Del Pilar,6/9/2023,4,charinakrissel.tingson@asurion.com
+101,Crispin Basilio,Gregorio Del Pilar,6/13/2023,4,charinakrissel.tingson@asurion.com
+101,Crispin Basilio,Gregorio Del Pilar,6/19/2023,5,charinakrissel.tingson@asurion.com
+101,Crispin Basilio,Gregorio Del Pilar,6/20/2023,5,charinakrissel.tingson@asurion.com
+101,Crispin Basilio,Gregorio Del Pilar,6/22/2023,5,charinakrissel.tingson@asurion.com
+44,Don Rafael,Juan Luna,5/1/2023,4,charinakrissel.tingson@asurion.com
+44,Don Rafael,Juan Luna,5/2/2023,4,charinakrissel.tingson@asurion.com
+44,Don Rafael,Juan Luna,5/3/2023,7,charinakrissel.tingson@asurion.com
+44,Don Rafael,Juan Luna,5/18/2023,6,charinakrissel.tingson@asurion.com
+44,Don Rafael,Juan Luna,5/22/2023,4,charinakrissel.tingson@asurion.com
+44,Don Rafael,Juan Luna,5/29/2023,7,charinakrissel.tingson@asurion.com
+44,Don Rafael,Juan Luna,5/30/2023,8,charinakrissel.tingson@asurion.com
+44,Don Rafael,Juan Luna,5/31/2023,4,charinakrissel.tingson@asurion.com
+44,Don Rafael,Juan Luna,6/1/2023,5,charinakrissel.tingson@asurion.com
+44,Don Rafael,Juan Luna,6/19/2023,4,charinakrissel.tingson@asurion.com
+44,Don Rafael,Juan Luna,6/21/2023,7,charinakrissel.tingson@asurion.com
+44,Don Rafael,Juan Luna,6/26/2023,6,charinakrissel.tingson@asurion.com
+44,Don Rafael,Juan Luna,6/26/2023,8,charinakrissel.tingson@asurion.com
+100,Elias Muro,Gregorio Del Pilar,5/1/2023,3,charinakrissel.tingson@asurion.com
+100,Elias Muro,Gregorio Del Pilar,5/2/2023,5,charinakrissel.tingson@asurion.com
+100,Elias Muro,Gregorio Del Pilar,5/8/2023,3,charinakrissel.tingson@asurion.com
+100,Elias Muro,Gregorio Del Pilar,5/11/2023,5,charinakrissel.tingson@asurion.com
+100,Elias Muro,Gregorio Del Pilar,5/12/2023,5,charinakrissel.tingson@asurion.com
+100,Elias Muro,Gregorio Del Pilar,5/24/2023,5,charinakrissel.tingson@asurion.com
+100,Elias Muro,Gregorio Del Pilar,5/25/2023,5,charinakrissel.tingson@asurion.com
+100,Elias Muro,Gregorio Del Pilar,5/31/2023,5,charinakrissel.tingson@asurion.com
+100,Elias Muro,Gregorio Del Pilar,6/1/2023,3,charinakrissel.tingson@asurion.com
+100,Elias Muro,Gregorio Del Pilar,6/9/2023,3,charinakrissel.tingson@asurion.com
+100,Elias Muro,Gregorio Del Pilar,6/15/2023,4,charinakrissel.tingson@asurion.com
+100,Elias Muro,Gregorio Del Pilar,6/20/2023,4,charinakrissel.tingson@asurion.com
+100,Elias Muro,Gregorio Del Pilar,6/23/2023,5,charinakrissel.tingson@asurion.com
+100,Elias Muro,Gregorio Del Pilar,6/29/2023,5,charinakrissel.tingson@asurion.com
+88,Josefina Del Pilar,Gregorio Del Pilar,5/1/2023,4,charinakrissel.tingson@asurion.com
+88,Josefina Del Pilar,Gregorio Del Pilar,5/2/2023,5,charinakrissel.tingson@asurion.com
+88,Josefina Del Pilar,Gregorio Del Pilar,5/8/2023,5,charinakrissel.tingson@asurion.com
+88,Josefina Del Pilar,Gregorio Del Pilar,5/9/2023,3,charinakrissel.tingson@asurion.com
+88,Josefina Del Pilar,Gregorio Del Pilar,5/10/2023,4,charinakrissel.tingson@asurion.com
+88,Josefina Del Pilar,Gregorio Del Pilar,5/15/2023,4,charinakrissel.tingson@asurion.com
+88,Josefina Del Pilar,Gregorio Del Pilar,5/19/2023,3,charinakrissel.tingson@asurion.com
+88,Josefina Del Pilar,Gregorio Del Pilar,5/30/2023,3,charinakrissel.tingson@asurion.com
+88,Josefina Del Pilar,Gregorio Del Pilar,5/31/2023,4,charinakrissel.tingson@asurion.com
+88,Josefina Del Pilar,Gregorio Del Pilar,6/1/2023,4,charinakrissel.tingson@asurion.com
+88,Josefina Del Pilar,Gregorio Del Pilar,6/6/2023,4,charinakrissel.tingson@asurion.com
+88,Josefina Del Pilar,Gregorio Del Pilar,6/7/2023,5,charinakrissel.tingson@asurion.com
+88,Josefina Del Pilar,Gregorio Del Pilar,6/9/2023,4,charinakrissel.tingson@asurion.com
+88,Josefina Del Pilar,Gregorio Del Pilar,6/13/2023,5,charinakrissel.tingson@asurion.com
+88,Josefina Del Pilar,Gregorio Del Pilar,6/14/2023,3,charinakrissel.tingson@asurion.com
+88,Josefina Del Pilar,Gregorio Del Pilar,6/19/2023,3,charinakrissel.tingson@asurion.com
+88,Josefina Del Pilar,Gregorio Del Pilar,6/20/2023,4,charinakrissel.tingson@asurion.com
+88,Josefina Del Pilar,Gregorio Del Pilar,6/23/2023,3,charinakrissel.tingson@asurion.com
+88,Josefina Del Pilar,Gregorio Del Pilar,6/27/2023,5,charinakrissel.tingson@asurion.com
+88,Josefina Del Pilar,Gregorio Del Pilar,6/30/2023,5,charinakrissel.tingson@asurion.com
+55,Lunatic Tasyo,Juan Luna,5/1/2023,4,charinakrissel.tingson@asurion.com
+55,Lunatic Tasyo,Juan Luna,5/2/2023,4,charinakrissel.tingson@asurion.com
+55,Lunatic Tasyo,Juan Luna,5/5/2023,7,charinakrissel.tingson@asurion.com
+55,Lunatic Tasyo,Juan Luna,5/19/2023,5,charinakrissel.tingson@asurion.com
+55,Lunatic Tasyo,Juan Luna,5/22/2023,5,charinakrissel.tingson@asurion.com
+55,Lunatic Tasyo,Juan Luna,5/24/2023,7,charinakrissel.tingson@asurion.com
+55,Lunatic Tasyo,Juan Luna,5/29/2023,4,charinakrissel.tingson@asurion.com
+55,Lunatic Tasyo,Juan Luna,5/30/2023,8,charinakrissel.tingson@asurion.com
+55,Lunatic Tasyo,Juan Luna,5/31/2023,4,charinakrissel.tingson@asurion.com
+55,Lunatic Tasyo,Juan Luna,6/1/2023,6,charinakrissel.tingson@asurion.com
+55,Lunatic Tasyo,Juan Luna,6/2/2023,4,charinakrissel.tingson@asurion.com
+55,Lunatic Tasyo,Juan Luna,6/6/2023,8,charinakrissel.tingson@asurion.com
+55,Lunatic Tasyo,Juan Luna,6/9/2023,7,charinakrissel.tingson@asurion.com
+55,Lunatic Tasyo,Juan Luna,6/16/2023,4,charinakrissel.tingson@asurion.com
+55,Lunatic Tasyo,Juan Luna,6/23/2023,7,charinakrissel.tingson@asurion.com
+55,Lunatic Tasyo,Juan Luna,6/26/2023,5,charinakrissel.tingson@asurion.com
+55,Lunatic Tasyo,Juan Luna,6/29/2023,5,charinakrissel.tingson@asurion.com
+77,Maria Clara,Gregorio Del Pilar,5/1/2023,4,charinakrissel.tingson@asurion.com
+77,Maria Clara,Gregorio Del Pilar,5/4/2023,4,charinakrissel.tingson@asurion.com
+77,Maria Clara,Gregorio Del Pilar,5/8/2023,3,charinakrissel.tingson@asurion.com
+77,Maria Clara,Gregorio Del Pilar,5/10/2023,3,charinakrissel.tingson@asurion.com
+77,Maria Clara,Gregorio Del Pilar,5/15/2023,4,charinakrissel.tingson@asurion.com
+77,Maria Clara,Gregorio Del Pilar,5/24/2023,4,charinakrissel.tingson@asurion.com
+77,Maria Clara,Gregorio Del Pilar,5/26/2023,4,charinakrissel.tingson@asurion.com
+77,Maria Clara,Gregorio Del Pilar,5/31/2023,3,charinakrissel.tingson@asurion.com
+77,Maria Clara,Gregorio Del Pilar,6/1/2023,5,charinakrissel.tingson@asurion.com
+77,Maria Clara,Gregorio Del Pilar,6/7/2023,3,charinakrissel.tingson@asurion.com
+77,Maria Clara,Gregorio Del Pilar,6/14/2023,4,charinakrissel.tingson@asurion.com
+77,Maria Clara,Gregorio Del Pilar,6/19/2023,4,charinakrissel.tingson@asurion.com
+77,Maria Clara,Gregorio Del Pilar,6/21/2023,5,charinakrissel.tingson@asurion.com
+77,Maria Clara,Gregorio Del Pilar,6/26/2023,3,charinakrissel.tingson@asurion.com
+77,Maria Clara,Gregorio Del Pilar,6/29/2023,4,charinakrissel.tingson@asurion.com
+22,Pilosopo Tasyo,Juan Luna,5/1/2023,8,charinakrissel.tingson@asurion.com
+22,Pilosopo Tasyo,Juan Luna,5/2/2023,6,charinakrissel.tingson@asurion.com
+22,Pilosopo Tasyo,Juan Luna,5/4/2023,7,charinakrissel.tingson@asurion.com
+22,Pilosopo Tasyo,Juan Luna,5/25/2023,4,charinakrissel.tingson@asurion.com
+22,Pilosopo Tasyo,Juan Luna,5/26/2023,7,charinakrissel.tingson@asurion.com
+22,Pilosopo Tasyo,Juan Luna,5/29/2023,8,charinakrissel.tingson@asurion.com
+22,Pilosopo Tasyo,Juan Luna,6/9/2023,7,charinakrissel.tingson@asurion.com
+22,Pilosopo Tasyo,Juan Luna,6/16/2023,4,charinakrissel.tingson@asurion.com
+22,Pilosopo Tasyo,Juan Luna,6/19/2023,8,charinakrissel.tingson@asurion.com
+22,Pilosopo Tasyo,Juan Luna,6/23/2023,5,charinakrissel.tingson@asurion.com
+22,Pilosopo Tasyo,Juan Luna,6/26/2023,7,charinakrissel.tingson@asurion.com
+22,Pilosopo Tasyo,Juan Luna,6/26/2023,8,charinakrissel.tingson@asurion.com
+66,San Diego ,Gregorio Del Pilar,5/1/2023,3,charinakrissel.tingson@asurion.com
+66,San Diego ,Gregorio Del Pilar,5/3/2023,3,charinakrissel.tingson@asurion.com
+66,San Diego ,Gregorio Del Pilar,5/5/2023,3,charinakrissel.tingson@asurion.com
+66,San Diego ,Gregorio Del Pilar,5/11/2023,3,charinakrissel.tingson@asurion.com
+66,San Diego ,Gregorio Del Pilar,5/16/2023,4,charinakrissel.tingson@asurion.com
+66,San Diego ,Gregorio Del Pilar,5/25/2023,3,charinakrissel.tingson@asurion.com
+66,San Diego ,Gregorio Del Pilar,6/1/2023,3,charinakrissel.tingson@asurion.com
+66,San Diego ,Gregorio Del Pilar,6/6/2023,3,charinakrissel.tingson@asurion.com
+66,San Diego ,Gregorio Del Pilar,6/7/2023,4,charinakrissel.tingson@asurion.com
+66,San Diego ,Gregorio Del Pilar,6/15/2023,5,charinakrissel.tingson@asurion.com
+66,San Diego ,Gregorio Del Pilar,6/23/2023,4,charinakrissel.tingson@asurion.com
+66,San Diego ,Gregorio Del Pilar,6/30/2023,4,charinakrissel.tingson@asurion.com
+99,Sisa Dela Cruz,Gregorio Del Pilar,5/1/2023,4,charinakrissel.tingson@asurion.com
+99,Sisa Dela Cruz,Gregorio Del Pilar,5/2/2023,4,charinakrissel.tingson@asurion.com
+99,Sisa Dela Cruz,Gregorio Del Pilar,5/4/2023,3,charinakrissel.tingson@asurion.com
+99,Sisa Dela Cruz,Gregorio Del Pilar,5/12/2023,4,charinakrissel.tingson@asurion.com
+99,Sisa Dela Cruz,Gregorio Del Pilar,5/25/2023,5,charinakrissel.tingson@asurion.com
+99,Sisa Dela Cruz,Gregorio Del Pilar,5/30/2023,4,charinakrissel.tingson@asurion.com
+99,Sisa Dela Cruz,Gregorio Del Pilar,6/1/2023,5,charinakrissel.tingson@asurion.com
+99,Sisa Dela Cruz,Gregorio Del Pilar,6/2/2023,5,charinakrissel.tingson@asurion.com
+99,Sisa Dela Cruz,Gregorio Del Pilar,6/6/2023,5,charinakrissel.tingson@asurion.com
+99,Sisa Dela Cruz,Gregorio Del Pilar,6/9/2023,4,charinakrissel.tingson@asurion.com
+99,Sisa Dela Cruz,Gregorio Del Pilar,6/16/2023,5,charinakrissel.tingson@asurion.com
+99,Sisa Dela Cruz,Gregorio Del Pilar,6/19/2023,4,charinakrissel.tingson@asurion.com
+99,Sisa Dela Cruz,Gregorio Del Pilar,6/27/2023,3,charinakrissel.tingson@asurion.com
+99,Sisa Dela Cruz,Gregorio Del Pilar,6/28/2023,5,charinakrissel.tingson@asurion.com
+33,Tiya Isabel,Juan Luna,5/1/2023,6,charinakrissel.tingson@asurion.com
+33,Tiya Isabel,Juan Luna,5/2/2023,5,charinakrissel.tingson@asurion.com
+33,Tiya Isabel,Juan Luna,5/4/2023,8,charinakrissel.tingson@asurion.com
+33,Tiya Isabel,Juan Luna,5/25/2023,8,charinakrissel.tingson@asurion.com
+33,Tiya Isabel,Juan Luna,5/30/2023,4,charinakrissel.tingson@asurion.com
+33,Tiya Isabel,Juan Luna,5/31/2023,5,charinakrissel.tingson@asurion.com
+33,Tiya Isabel,Juan Luna,6/1/2023,5,charinakrissel.tingson@asurion.com
+33,Tiya Isabel,Juan Luna,6/5/2023,6,charinakrissel.tingson@asurion.com
+33,Tiya Isabel,Juan Luna,6/9/2023,7,charinakrissel.tingson@asurion.com
+33,Tiya Isabel,Juan Luna,6/13/2023,4,charinakrissel.tingson@asurion.com
+33,Tiya Isabel,Juan Luna,6/20/2023,6,charinakrissel.tingson@asurion.com
+33,Tiya Isabel,Juan Luna,6/26/2023,5,charinakrissel.tingson@asurion.com
+33,Tiya Isabel,Juan Luna,6/29/2023,4,charinakrissel.tingson@asurion.com

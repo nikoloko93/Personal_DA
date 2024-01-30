@@ -1,0 +1,36 @@
+employeenumber,name,supervisor,leave_date,leave_hour,leave_type
+11,Capitan Tiago,Juan Luna,5/16/2023,8,PTO
+11,Capitan Tiago,Juan Luna,5/19/2023,8,PTO
+11,Capitan Tiago,Juan Luna,6/5/2023,8,PTO
+11,Capitan Tiago,Juan Luna,6/6/2023,8,PTO
+11,Capitan Tiago,Juan Luna,6/7/2023,8,PTO
+11,Capitan Tiago,Juan Luna,6/8/2023,8,PTO
+11,Capitan Tiago,Juan Luna,6/27/2023,4,PTO
+101,Crispin Basilio,Gregorio Del Pilar,5/4/2023,8,OB
+101,Crispin Basilio,Gregorio Del Pilar,6/15/2023,8,PTO
+101,Crispin Basilio,Gregorio Del Pilar,6/26/2023,8,PTO
+101,Crispin Basilio,Gregorio Del Pilar,6/27/2023,8,PTO
+44,Don Rafael,Juan Luna,6/13/2023,8,PTO
+44,Don Rafael,Juan Luna,6/14/2023,8,PTO
+44,Don Rafael,Juan Luna,6/15/2023,8,PTO
+44,Don Rafael,Juan Luna,6/16/2023,8,PTO
+44,Don Rafael,Juan Luna,6/17/2023,8,PTO
+100,Elias Muro,Gregorio Del Pilar,5/4/2023,8,OB
+100,Elias Muro,Gregorio Del Pilar,5/15/2023,8,PTO
+100,Elias Muro,Gregorio Del Pilar,5/19/2023,8,PTO
+88,Josefina Del Pilar,Gregorio Del Pilar,5/4/2023,8,OB
+55,Lunatic Tasyo,Juan Luna,5/16/2023,8,PTO
+55,Lunatic Tasyo,Juan Luna,5/17/2023,8,PTO
+55,Lunatic Tasyo,Juan Luna,5/18/2023,8,PTO
+55,Lunatic Tasyo,Juan Luna,5/26/2023,8,PTO
+55,Lunatic Tasyo,Juan Luna,6/14/2023,8,PTO
+77,Maria Clara,Gregorio Del Pilar,5/4/2023,8,OB
+66,San Diego ,Gregorio Del Pilar,5/4/2023,8,OB
+66,San Diego ,Gregorio Del Pilar,6/13/2023,8,PTO
+66,San Diego ,Gregorio Del Pilar,6/27/2023,8,PTO
+99,Sisa Dela Cruz,Gregorio Del Pilar,5/4/2023,8,OB
+99,Sisa Dela Cruz,Gregorio Del Pilar,6/23/2023,8,PTO
+33,Tiya Isabel,Juan Luna,5/10/2023,8,PTO
+33,Tiya Isabel,Juan Luna,5/11/2023,8,PTO
+33,Tiya Isabel,Juan Luna,5/17/2023,4,PTO
+33,Tiya Isabel,Juan Luna,6/14/2023,8,PTO
